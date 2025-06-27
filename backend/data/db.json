@@ -1,0 +1,10 @@
+{
+  "beneficiaries": [
+    {
+      "id": 1,
+      "name": "Sarvani",
+      "email": "sarvani04@gmail.com",
+      "address": "Hyderabad"
+    }
+  ]
+}
