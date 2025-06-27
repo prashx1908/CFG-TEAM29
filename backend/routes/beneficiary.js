@@ -3,6 +3,7 @@ const router = express.Router();
 const fs = require('fs');
 const path = require('path');
 const dbPath = path.join(__dirname, '../data/db.json');
+const beneficiaryRoute = express.Router();
 
 const validateBeneficiary = (data) => {
   const nameRegex = /^(?=.*[A-Z])(?=.*[a-z])[a-zA-Z\s]{1,20}$/;
@@ -98,4 +99,4 @@ router.put('/update/:id', (req, res) => {
   });
 });
 
-module.exports = router;
+module.exports = beneficiaryRoute;
